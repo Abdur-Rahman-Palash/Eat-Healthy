@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.montserrat-normal {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.header-content, .main-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.header-text h1{
+  font-family: Montserrat;
+font-size: 3rem;
+font-weight: 700;
+line-height: 130%;
+letter-spacing: -2%;
+text-align: left;
+} 
+.main-text h1{
+  font-family: Montserrat;
+font-size: 3rem;
+font-weight: 700;
+line-height: 130%;
+letter-spacing: -2%;
+text-align: left;
+}
+.header-text, .main-text p{
+  color: rgb(130, 130, 130);
+font-family: Montserrat;
+font-size: 15px;
+font-weight: 500;
+line-height: 160%;
+letter-spacing: -2%;
+text-align: left;
+}
+.btn{
+  border-radius: 100px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: left;
+box-shadow: 0px 2px 30px 0px rgba(252, 143, 73, 0.5);
+background: linear-gradient(69.40deg, rgb(251, 162, 79) -6.919%,rgb(255, 30, 30) 144.985%);
+border: none;
+}
+#skip{
+  color: rgb(251, 162, 79);
+}
+ .header-image img{
+  width: 50%;
+}
+.main-image img{
+  width: 30%;
+}
+.recipi{
+width: 1220px;
+height: 550px;
+margin: 0 auto;
+margin-top: 30px;
+}
+.card1 img{
+width: 100%;
+height: 250px;
+}
+.card2 img{
+  width: 100%;
+height:250px;
+}
+.card-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+}
+.headline h3{
+  color: rgb(103, 103, 103);
+  font-family: Montserrat;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+}
+.headline p{
+  color: rgb(37, 37, 37);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.card1{
+  border-radius: 10px;
+box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.15);
+background: rgb(255, 255, 255);
+padding: 10px;
+}
+.card1 h4{
+  color: rgb(24, 25, 31);
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.card1 p{
+  color: rgb(24, 25, 31);
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.card2{
+  border-radius: 10px;
+box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.15);
+background: rgb(255, 255, 255);
+padding: 10px;
+}
+.card2 h4{
+  color: rgb(24, 25, 31);
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.card2 p{
+  color: rgb(24, 25, 31);
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+/*  */
+.enroll-content{
+  display: flex;
+  margin: 0 auto;
+  margin-top: 90px;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.enroll{
+  border-radius: 20px;
+width: 800px;
+height: 150px;
+margin: 0 auto;
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.185);
+/* Default / White */
+background: rgb(255, 255, 255);
+}
+
+.div1, .div2 h4{
+  color: rgb(24, 25, 31);
+font-family: Montserrat;
+font-size: 28px;
+font-weight: 700;
+letter-spacing: 0%;
+text-align: left;
+}
+.div3 h4{
+  color: rgb(24, 25, 31);
+font-family: Montserrat;
+font-size: 28px;
+font-weight: 700;
+letter-spacing: 0%;
+text-align: left;
+}
+.div1 p{
+  color: rgb(24, 25, 31);
+font-family: Montserrat;
+font-size: 10px;
+font-weight: 400;
+letter-spacing: 0%;
+text-align: left;
+}
+.div2 p{
+  color: rgb(24, 25, 31);
+font-family: Montserrat;
+font-size: 10px;
+font-weight: 400;
+letter-spacing: 0%;
+text-align: left;
+}
+.div3 p{
+  color: rgb(24, 25, 31);
+font-family: Montserrat;
+font-size: 10px;
+font-weight: 400;
+letter-spacing: 0%;
+text-align: left;
+}
+/*  */
+.footer{
+background: rgb(11, 13, 23);
+width: 1440px;
+height: 256px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 35px;
+}
+.footer h4{
+  background: linear-gradient(69.40deg, rgb(251, 162, 79),rgb(255, 30, 30));
+  font-family: Manrope;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 0px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: white;
+} 
+.footer p{
+  color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 10px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
